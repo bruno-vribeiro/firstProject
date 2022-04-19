@@ -1,0 +1,30 @@
+import { Component, EventEmitter, Output } from "@angular/core";
+import { timeoutWith } from "rxjs";
+
+@Component({
+  selector:'nova-transferencia',
+  templateUrl:'./nova-transferencia.component.html',
+  styleUrls:['./nova-transferencia.component.scss']
+
+})
+export class NovaTransferenciaComponent{
+
+  @Output() aoTransferir = new EventEmitter<any>();
+
+ valor:number;
+ destino:number;
+
+  transferir(): void{
+    console.log('Solicitada nova transferencia');
+
+    const valorEmitir = {valor: this.valor, destino: this.destino}
+    this.aoTransferir.emit(valorEmitir);
+    
+    this.limpaCampos();
+  }
+
+  limpaCampos(){
+  this.valor=0;
+  this.destino=0;
+  }
+}
