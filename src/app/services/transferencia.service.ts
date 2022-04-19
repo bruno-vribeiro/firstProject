@@ -21,14 +21,14 @@ get transferencias(){
   return this.listaTransferencia;
 }
 
-todas(): Observable<Transferencia[]>{
+todas(){
   return this.httpClient.get<Transferencia[]>(this.url)
 }
 
-adicionar(transferencia:any){
+adicionar(transferencia: Transferencia): Observable<Transferencia>{
   this.hidratar(transferencia);
 
-  this.listaTransferencia.push(transferencia);
+  return this.httpClient.post<Transferencia>(this.url, transferencia)
 }
 
 private hidratar(transferencia:any){

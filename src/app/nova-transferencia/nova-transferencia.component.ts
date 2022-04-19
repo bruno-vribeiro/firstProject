@@ -1,5 +1,7 @@
 import { Component, EventEmitter, Output } from "@angular/core";
-import { timeoutWith } from "rxjs";
+import { Router } from "@angular/router";
+import { Transferencia } from "../models/transferencia.model";
+import { TransferenciaService } from "../services/transferencia.service";
 
 @Component({
   selector:'nova-transferencia',
@@ -10,17 +12,20 @@ import { timeoutWith } from "rxjs";
 export class NovaTransferenciaComponent{
 
   @Output() aoTransferir = new EventEmitter<any>();
-
  valor:number;
  destino:number;
-
-  transferir(): void{
+ constructor(private service: TransferenciaService, private router: Router){
+ }
+  transferir(){
     console.log('Solicitada nova transferencia');
-
-    const valorEmitir = {valor: this.valor, destino: this.destino}
-    this.aoTransferir.emit(valorEmitir);
-    
-    this.limpaCampos();
+    const valorEmitir: Transferencia = {valor: this.valor, destino: this.destino};
+    this.service.adicionar(valorEmitir).subscribe((resultado:any) =>{
+      console.log(resultado);
+      this.limpaCampos();
+      this.router.navigateByUrl('extrato');
+    },
+    (error) => console.error(error)
+    );
   }
 
   limpaCampos(){

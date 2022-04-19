@@ -17,6 +17,176 @@
       "valor": 12.5,
       "destino": "1214-1",
       "data": "2020-11-05T21:14:10.710Z"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T17:55:05.130Z",
+      "id": "56lR-sM"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T18:01:22.602Z",
+      "id": "aMZjxC4"
+    },
+    {
+      "valor": 34,
+      "destino": null,
+      "data": "2022-04-19T18:02:05.346Z",
+      "id": "BrMS4pt"
+    },
+    {
+      "valor": 23,
+      "destino": null,
+      "data": "2022-04-19T18:15:40.458Z",
+      "id": "TIBWanE"
+    },
+    {
+      "valor": 46,
+      "destino": null,
+      "data": "2022-04-19T18:27:03.441Z",
+      "id": "TYCJpG2"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T18:34:15.969Z",
+      "id": "DYn8C3C"
+    },
+    {
+      "valor": 34,
+      "destino": 333,
+      "data": "2022-04-19T18:38:07.777Z",
+      "id": "o5mU28V"
+    },
+    {
+      "valor": 11,
+      "destino": null,
+      "data": "2022-04-19T19:30:47.815Z",
+      "id": "85wy0pR"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T19:32:10.007Z",
+      "id": "JPYJ_su"
+    },
+    {
+      "valor": 45,
+      "destino": 23,
+      "data": "2022-04-19T19:33:32.735Z",
+      "id": "aelXoSt"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T19:34:22.015Z",
+      "id": "sm5n38a"
+    },
+    {
+      "valor": 34,
+      "destino": null,
+      "data": "2022-04-19T19:34:55.999Z",
+      "id": "0U_EI3Q"
+    },
+    {
+      "data": "2022-04-19T19:35:03.703Z",
+      "id": "IRzOVW4"
+    },
+    {
+      "valor": 45,
+      "destino": 34,
+      "data": "2022-04-19T19:35:18.039Z",
+      "id": "ryg7gvQ"
+    },
+    {
+      "valor": 45,
+      "destino": 3433,
+      "data": "2022-04-19T19:35:29.431Z",
+      "id": "a5hkYWk"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T19:35:35.943Z",
+      "id": "mNzO-MW"
+    },
+    {
+      "valor": 34,
+      "destino": 23,
+      "data": "2022-04-19T19:36:35.351Z",
+      "id": "9dYBw4z"
+    },
+    {
+      "valor": 34,
+      "destino": 2333333,
+      "data": "2022-04-19T19:36:40.175Z",
+      "id": "E83aEiM"
+    },
+    {
+      "valor": 34,
+      "destino": null,
+      "data": "2022-04-19T19:36:44.775Z",
+      "id": "13Waoph"
+    },
+    {
+      "valor": 45,
+      "destino": 45,
+      "data": "2022-04-19T19:38:04.167Z",
+      "id": "-y3NJ4W"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T19:38:09.510Z",
+      "id": "fFngkqm"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T19:39:03.407Z",
+      "id": "i88sI2P"
+    },
+    {
+      "valor": 45,
+      "destino": 45,
+      "data": "2022-04-19T19:41:11.534Z",
+      "id": "wa5bhdc"
+    },
+    {
+      "valor": 45,
+      "destino": null,
+      "data": "2022-04-19T19:41:16.198Z",
+      "id": "z81yznt"
+    },
+    {
+      "valor": 45,
+      "destino": "45",
+      "data": "2022-04-19T19:42:14.079Z",
+      "id": "KCyxfIw"
+    },
+    {
+      "valor": 45,
+      "destino": "45-7",
+      "data": "2022-04-19T19:42:23.423Z",
+      "id": "VYlUrHf"
+    },
+    {
+      "valor": 90,
+      "destino": "222-3",
+      "data": "2022-04-19T19:49:35.520Z",
+      "id": "AqbrPMB"
+    },
+    {
+      "valor": 34,
+      "destino": "222-3",
+      "data": "2022-04-19T19:52:57.383Z",
+      "id": "KhqVWZB"
+    },
+    {
+      "data": "2022-04-19T20:02:55.032Z",
+      "id": "5Pi7dp4"
     }
   ]
 }
